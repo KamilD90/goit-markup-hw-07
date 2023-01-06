@@ -1,7 +1,19 @@
 
-@use './utils/vars' as *;
-@import "./components/navigation";
+@use './utils/vars';
+@use './utils/global';
 @import "./components/page-header";
+@import"./components/buttons";
+@import "./components/hero";
+@import "./components/article";
+@import "./components/our-job";
+@import "./components/social-media";
+@import "./components/team";
+@import "./components/customers";
+@import "./components/footer";
+@import "./components/filters";
+@import "./components/category";
 
-body{
-    color:$defaultFontColor;}
+
+
+
+
