@@ -1,8 +1,8 @@
 
-@use './utils/vars';
-@use './utils/global';
+@use './utils/vars' as *;
+@use './utils/global' as *;
 @import "./components/page-header";
-@import"./components/buttons";
+@import "./components/buttons";
 @import "./components/hero";
 @import "./components/article";
 @import "./components/our-job";

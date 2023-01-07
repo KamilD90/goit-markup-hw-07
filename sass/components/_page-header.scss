@@ -1,12 +1,4 @@
-.brand-logo{
-    color: $brand-black;
-   font-family: 'Raleway', sans-serif;
-   font-weight: 700;
-   font-size: 26px;
-   text-decoration: none;
-   line-height: 1.19;
-   letter-spacing: 0.03em; 
- }
+
 
 .header {
   display: flex;
@@ -22,12 +14,24 @@
 
   &__wrapper{
     display: flex;
+    
+
   }
 
   &__brand-logo{
     margin: 24px 0;
     margin-right: 93px;
-    color:var(--brand-light-navy);
+    
+
+    &.brand-logo{
+        color:var(--brand-light-navy);
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        text-decoration: none;
+        line-height: 1.19;
+        letter-spacing: 0.03em; 
+      }
   }
   
   &__navigate{
@@ -116,5 +120,10 @@
           color: $brand-light-navy;
       }
   }
+  &__contact-icon{
+    margin-right: 10px;
+  }
 }
+
+
 
