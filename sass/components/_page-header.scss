@@ -1,40 +1,26 @@
-.brand-logo{
-    color:$brand-black;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    text-decoration: none;
-    line-height: 1.19;
-    letter-spacing: 0.03em; 
-  }
 
 .header {
-  display: flex;
   justify-content: space-between;
   border-bottom: 1px solid #ececec;
 
-  &.container{
-    max-width: 1200px;
-    width: 100%;
-    padding: 0 15px;
-    margin: 0 auto;
+  &__flex-box{
+    display:flex;
+    justify-content: space-between;
   }
 
   &__wrapper{
     display: flex;
-    
-
   }
 
-  &__brand-logo{
+  &__logo{
     margin: 24px 0;
     margin-right: 93px;
-    color:$brand-light-navy;
   }
   
   &__navigate{
       display: flex;
       align-items: center;
+      
   }
   
   &__navigate-list{display: flex;
