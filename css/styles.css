@@ -44,7 +44,7 @@ body {
   display: flex;
 }
 
-.brand-logo{
+.logo{
    color: var(--brand-black);
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
